@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    margin-left:500px;
+    text-align: left;
+    font-weight: bold;
+}
+input.text{
+    border-radius:5px;
+    width: 400px;
+    height: 35px;
+    margin-bottom:20px;
+    margin-top:5px;
+    border: 1px solid #BBBBBB;
+}
+input.rad{
+    margin-top:20px;
+    margin-left: 0px;
+}
+.box
+{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(28 134 238);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(248 248 255);
+    font-weight: bold;
+    margin-top:40px;
+    margin-left: 150px;
+}
+.result
+{
+    background-color: #EEEEEE;
+    border:1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    margin-top:40px;
+    text-align: center;
+}

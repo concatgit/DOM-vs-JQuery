@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1 style="margin-left:100px;">ĐO CHỈ SỐ (BMI)</h1><br>
+        <form action="" id="form-bmi" method="post">
+        <div id="form-group">
+            <label for="chieucao">Chiều cao</label><br>
+            <input class="text" type="text" id="chieucao" name="chieucao" placeholder=" Tính theo m">
+        </div>
+        <div id="form-group">
+            <label for="chieucao">Cân nặng</label><br>
+            <input class="text" type="text" id="cannang" name="cannang" placeholder=" Tính theo kg">
+        </div>
+        <div id="form-group">
+            <label for="gioitinh">Giới tính:</label><br>
+            <input class="rad" type="radio" name="gender" id="nam" value="nam" checked> Nam
+            <input style="margin-left: 30px;" class="rad" type="radio" name="gender" id="nu" value="nu"> Nữ
+        </div>
+        <input class="box" type="submit" value="Tính BMI" id="tinh" name="tinh">
+        <div class="result">
+            <p>KẾT QUẢ</p>
+            <h2 id="result">-</h2>
+        </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
