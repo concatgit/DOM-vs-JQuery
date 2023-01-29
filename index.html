@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h3>Nhập thông tin khoản vay</h3>
+        <form action="" id="form-1" method="post">
+        <table border="0">
+        <tr>
+            <div id="form-group">
+            <td><label for="sotien">1) Số tiền:</label></td>
+            <td class="low"><input class="box" type="text" id="sotien" name="sotien"></td>
+            </div>
+        </tr>
+        <tr>
+            <div id="form-group">
+            <td><label for="laisuat">2) Lãi suất hàng năm (%):</label></td>
+            <td class="low"><input class="box" type="text" id="laisuat" name="laisuat"></td>
+        </div>
+        </tr>
+            <div id="form-group">
+            <td><label for="tgtra">3) Thời gian trả (năm):</label></td>
+            <td class="low"><input class="box" type="text" id="tgtra" name="tgtra"></td>
+            </div>
+        </table>
+        <tr>
+            <td><input style="margin-top:5px" type="submit" value="Tính" id="tinh" name="tinh"></td>
+            <td></td>
+        </tr>
+        </form>
+        <h3>Thông tin thanh toán</h3>
+        <form action="" id="form-2" method="post">
+        <table border="0">
+        <tr>
+            <div id="form-group">
+            <td><label for="trahangthang">4) Số tiền phải trả hàng tháng:</label></td>
+            <td class="low"><input class="box" type="text" id="tht" name="trahangthang"></td>
+            </div>
+        </tr>
+        <tr>
+            <div id="form-group">
+            <td><label for="tongtra">5) Tổng số tiền phải trả:</label></td>
+            <td class="low"><input class="box" type="text" id="tt" name="tongtra"></td>
+        </div>
+        </tr>
+            <div id="form-group">
+            <td><label for="tonglaitra">6) Tổng số lãi phải trả:</label></td>
+            <td class="low"><input class="box" type="text" id="tlt" name="tonglaitra"></td>
+            </div>
+        </table>
+    </form>
+    </div>
+    <script src="script.js"></script>
+    <script>thanhToan('#form-1')</script>
+</body>
+</html>
